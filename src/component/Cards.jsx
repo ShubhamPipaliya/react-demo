@@ -6,7 +6,6 @@ const Cards = (props) => {
 
     const [show, setShow] = useState(false);
 
-    // const handleShow = () => setShow(true);
     const handleShow =() =>{
         setShow(true)
     }
@@ -16,88 +15,8 @@ const Cards = (props) => {
         setShow(false)
     };
 
-    // const [card, setCard] = useState([
-    //     {
-    //         id: "1",
-    //         img: "https://images.unsplash.com/photo-1617013371588-dfe4246161a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBva2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    //         title: "Poker",
-    //         category:"casino Game"
-    //         // contain: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, veritatis.",
-    //         // p1: "#Picnic",
-    //         // p2: "#Photo",
-    //         // p3: "#Fun",
-    //     },
-    //     {
-    //         id: "2",
-    //         img: "https://images.unsplash.com/photo-1511193311914-0346f16efe90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG9rZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-    //         title: "Teen Patti",
-    //         category:"Cards Game"
-    //         // contain: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, veritatis.",
-    //         // p1: "#Picnic",
-    //         // p2: "#Photo",
-    //         // p3: "#Fun",
-    //     }, {
-    //         id: "3",
-    //         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB6TmCRnucpxH5NKaeUJccv0Hqp2iJ-cnhoGp2iBmU1g&usqp=CAU&ec=48600112",
-    //         title: "Crazy Monkey",
-    //         category:"Cards Game"
-    //         // contain: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, veritatis.",
-    //         // p1: "#Picnic",
-    //         // p2: "#Photo",
-    //         // p3: "#Fun",
-    //     },
-    //     {
-    //         id: "4",
-    //         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq1TkbrZUGVtylOn7M_7vo4bXevJyxSCBDN_740i-08Q&usqp=CAU&ec=48600112",
-    //         title: "Ludo",
-    //         category:"Dics Game"
-    //         // contain: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, veritatis.",
-    //         // p1: "#Picnic",
-    //         // p2: "#Photo",
-    //         // p3: "#Fun",
-    //     },
-    //     {
-    //         id: "5",
-    //         img: "https://www.minecraft.net/content/dam/games/minecraft/marketplace/updates-catspandas_latest.jpg",
-    //         title: "MineCraft",
-    //         category:"Cards Game"
-    //         // contain: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, veritatis.",
-    //         // p1: "#Picnic",
-    //         // p2: "#Photo",
-    //         // p3: "#Fun",
-    //     },
-
-    //     {
-    //         id: "6",
-    //         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3zHpDiderf1V7KfVi-Kht6MNSwJAYMM9pNAL-ZnN9KQ&usqp=CAU&ec=48600112",
-    //         title: "Vegas Night",
-    //         category:"Casino Game"
-    //         // contain: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, veritatis.",
-    //         // p1: "#Picnic",
-    //         // p2: "#Photo",
-    //         // p3: "#Fun",
-    //     },
-    //     {
-    //         id: "7",
-    //         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-GWboqEPU9tjvcr9DxeAzZaULckMfA_hQ8syPzPLK6WFzWU-g690Ae55kLRPfMqEh1byFqkHFi40&usqp=CAU&ec=48600112",
-    //         title: "Thunder Zesus ",
-    //         category:"Casino Game"
-    //         // contain: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, veritatis.",
-    //         // p1: "#Picnic",
-    //         // p2: "#Photo",
-    //         // p3: "#Fun",
-    //     },
-    // ]
-
-
-
-
-    // )
-
-
-
-
    
+
 
     return (
         <>
@@ -150,7 +69,7 @@ const Cards = (props) => {
                                 <div className='text-start text-gray-400 text-base mx-2'>
                                     <p >{ele?.category}</p>
                                 </div>
-                                <button className='w-50 mb-10 ml-5 p-2 mt-2' onClick={handleShow}> Play </button>
+                                <button className='w-50 mb-10 ml-5 p-2 mt-2' onClick={handleShow}> Play Game </button>
 
                             </div>
 
